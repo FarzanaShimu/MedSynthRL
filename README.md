@@ -72,7 +72,7 @@ Project Organization
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/smn06/MedSynthRL.git
+   git clone https://github.com/farzanashimu/MedSynthRL.git
    cd MedSynthRL
    ```
 
