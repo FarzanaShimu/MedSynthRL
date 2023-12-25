@@ -1,7 +1,10 @@
-MedSynthRL
-==============================
+### MedSynthRL: GANs for Synthetic Patient Data in Reinforcement Learning Healthcare Simulations
 
-A short description of the project.
+![MedSynthRL Logo](link/to/logo.png)
+
+### Overview
+
+MedSynthRL is a groundbreaking project that leverages Generative Adversarial Networks (GANs) to generate realistic synthetic patient data. This synthetic data is instrumental in training Reinforcement Learning (RL) agents for medical decision-making and diagnosis within healthcare simulations.
 
 Project Organization
 ------------
@@ -54,4 +57,42 @@ Project Organization
 
 --------
 
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+
+### Features
+
+- **GAN-powered Data Generation**: Utilize advanced GAN techniques to create synthetic patient data that closely mimics real-world medical scenarios.
+  
+- **Reinforcement Learning Integration**: Train RL agents using the generated synthetic patient data to enhance medical decision-making and diagnosis capabilities.
+
+- **Privacy-Preserving Simulation**: Address data privacy concerns by using synthetic data, enabling researchers and developers to simulate healthcare scenarios without compromising sensitive patient information.
+
+- **Customizable Parameters**: Easily adjust GAN and RL parameters to tailor the simulation environment to specific medical use cases.
+
+### Getting Started
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/smn06/MedSynthRL.git
+   cd MedSynthRL
+   ```
+
+2. **Install Dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Run the Simulation:**
+   ```bash
+   python main_simulation.py
+   ```
+
+### Configuration
+
+- Adjust GAN parameters in `gan_config.yaml`.
+- Fine-tune RL agent settings in `rl_config.yaml`.
+- Customize medical scenarios and data characteristics in `simulation_config.yaml`.
+
+
+### License
+
+MedSynthRL is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
